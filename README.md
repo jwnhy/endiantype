@@ -16,7 +16,7 @@ use endiantype::types::*;
 ```
 
 ## Features
-Here is some features of `endian_type` crate.
+Here is some features of `endiantype` crate.
 ### [no-std] Support
 This crate can be used without `std` support with no requirements or additional features needed
 as it only relies on `core`.
@@ -24,13 +24,13 @@ as it only relies on `core`.
 This crate provides sufficient default operations for endian-aware types.
 
 For example, you can directly compare a primitive type with a endian-aware type.
-```
+```rust
 use endiantype::*;
 let num_le = u16_le::from_native(10);
 assert!(num_le < 11);
 ```
 Other bit-wise ops like `&`, `|` and arithmetic ops like `+`, `-` are also supported.
-```
+```rust
 use endiantype::*;
 let a = u32_le::from_native(1);
 let b = u32_be::from_native(2);

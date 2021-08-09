@@ -1,7 +1,10 @@
 [package]
 name = "endian_type"
 version = "0.1.0"
+authors = ["John Lu luhy2017@mail.sustech.edu.cn"]
 edition = "2018"
+description = "endian_type is an no-std, endian-aware implementation of primitive types like u8, u16, etc."
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

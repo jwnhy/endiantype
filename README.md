@@ -11,7 +11,7 @@ Add this to your Cargo.toml
 endiantype = "0.1.0"
 ```
 and import endian-ware types from this crate.
-```
+```rust
 use endiantype::types::*;
 ```
 

@@ -1,6 +1,6 @@
 [package]
 name = "endiantype"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["John Lu luhy2017@mail.sustech.edu.cn"]
 edition = "2018"
 description = "endiantype is an no-std, endian-aware implementation of primitive types like u8, u16, etc."

@@ -1,6 +1,6 @@
 # Endian Type
 [![Crate](https://img.shields.io/crates/v/endiantype.svg)](https://crates.io/crates/endiantype)
-[![API](https://docs.rs/endiantype/badge.svg)](https://docs.rs/rand)
+[![API](https://docs.rs/endiantype/badge.svg)](https://docs.rs/endiantype)
 
 `endiantype` is an `no-std`, endian-aware implementation of primitive types like `u8`, `u16`, etc.
 

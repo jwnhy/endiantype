@@ -36,7 +36,7 @@
 //! let b = u32_be::from_native(2);
 //! assert!(a+b == 3);
 //! ```
-
+#![no_std]
 use core::cmp::Ordering;
 use core::ops::{Add, BitAnd, BitOr, BitXor, Sub};
 

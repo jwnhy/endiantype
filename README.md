@@ -10,7 +10,7 @@ types with almost zero overhead.
 ## Usage
 Add this to your Cargo.toml
 ```
-endiantype = "0.1.2"
+endiantype = "0.1.3"
 ```
 to use in a `[no_std]` environment, you need to disable default features.
 ```

@@ -14,7 +14,7 @@ endiantype = "0.1.2"
 ```
 to use in a `[no_std]` environment, you need to disable default features.
 ```
-endiantype = { "0.1.2", default-features = false}
+endiantype = { version = "0.1.3", default-features = false}
 ```
 and import endian-ware types from this crate.
 ```rust

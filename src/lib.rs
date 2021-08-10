@@ -10,6 +10,10 @@
 //! ```
 //! endiantype = "0.1.0"
 //! ```
+//! to use in a `[no_std]` environment, you need to disable default features.
+//! ```
+//! endiantype = { "0.1.2", default-features = false}
+//! ```
 //! and import endian-ware types from this crate.
 //! ```
 //! use endiantype::types::*;
@@ -36,7 +40,7 @@
 //! let b = u32_be::from_native(2);
 //! assert!(a+b == 3);
 //! ```
-#![no_std]
+#![cfg_attr(not(feature = "std"), no_std)]
 use core::cmp::Ordering;
 use core::ops::{Add, BitAnd, BitOr, BitXor, Sub};
 

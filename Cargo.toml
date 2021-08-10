@@ -10,6 +10,9 @@ keywords = ["endian", "nostd", "byteorder", "embedded", "types"]
 documentation = "https://docs.rs/endiantype"
 categories = ["no-std"]
 
+[features]
+default = ["std"]
+std = []
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
